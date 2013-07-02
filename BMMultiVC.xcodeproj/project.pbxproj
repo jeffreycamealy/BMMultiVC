@@ -21,7 +21,7 @@
 		0074F589178359D4008D7136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0074F56A178359D4008D7136 /* Foundation.framework */; };
 		0074F591178359D4008D7136 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0074F58F178359D4008D7136 /* InfoPlist.strings */; };
 		0074F594178359D4008D7136 /* BMMultiVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0074F593178359D4008D7136 /* BMMultiVCTests.m */; };
-		0074F5A017835A48008D7136 /* BMMultiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0074F59F17835A48008D7136 /* BMMultiVC.m */; };
+		0074F5A5178362B7008D7136 /* BMMultiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0074F5A4178362B7008D7136 /* BMMultiVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		0074F590178359D4008D7136 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0074F592178359D4008D7136 /* BMMultiVCTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMMultiVCTests.h; sourceTree = "<group>"; };
 		0074F593178359D4008D7136 /* BMMultiVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMMultiVCTests.m; sourceTree = "<group>"; };
-		0074F59E17835A48008D7136 /* BMMultiVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMultiVC.h; sourceTree = "<group>"; };
-		0074F59F17835A48008D7136 /* BMMultiVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMultiVC.m; sourceTree = "<group>"; };
+		0074F5A3178362B7008D7136 /* BMMultiVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMultiVC.h; sourceTree = "<group>"; };
+		0074F5A4178362B7008D7136 /* BMMultiVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMultiVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 			children = (
 				0074F59D17835A25008D7136 /* AppDelegate */,
 				0074F56F178359D4008D7136 /* Supporting Files */,
-				0074F5A117835A4B008D7136 /* BMMultiVC */,
+				0074F5A2178362B7008D7136 /* BMMultiVC */,
 			);
 			path = BMMultiVC;
 			sourceTree = "<group>";
@@ -164,13 +164,13 @@
 			name = AppDelegate;
 			sourceTree = "<group>";
 		};
-		0074F5A117835A4B008D7136 /* BMMultiVC */ = {
+		0074F5A2178362B7008D7136 /* BMMultiVC */ = {
 			isa = PBXGroup;
 			children = (
-				0074F59E17835A48008D7136 /* BMMultiVC.h */,
-				0074F59F17835A48008D7136 /* BMMultiVC.m */,
+				0074F5A3178362B7008D7136 /* BMMultiVC.h */,
+				0074F5A4178362B7008D7136 /* BMMultiVC.m */,
 			);
-			name = BMMultiVC;
+			path = BMMultiVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +284,7 @@
 			files = (
 				0074F575178359D4008D7136 /* main.m in Sources */,
 				0074F579178359D4008D7136 /* AppDelegate.m in Sources */,
-				0074F5A017835A48008D7136 /* BMMultiVC.m in Sources */,
+				0074F5A5178362B7008D7136 /* BMMultiVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
